@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Design tokens for the dark theme. Tweak these to reskin the whole site. */
+@theme {
+  --color-bg: #0a0a0f;
+  --color-surface: #14141c;
+  --color-surface-2: #1c1c26;
+  --color-border: #262633;
+  --color-text: #e7e7ee;
+  --color-muted: #9a9aae;
+  --color-accent: #7c7cff;
+  --color-accent-2: #22d3ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle radial glow behind the hero. */
+.glow {
+  background:
+    radial-gradient(60rem 40rem at 50% -10%, rgba(124, 124, 255, 0.18), transparent 70%),
+    radial-gradient(40rem 30rem at 90% 10%, rgba(34, 211, 238, 0.1), transparent 70%);
+}
