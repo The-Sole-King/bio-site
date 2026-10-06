@@ -36,6 +36,13 @@ export const about = {
 
 export const projects = [
   {
+    title: "Sign Reader — ASL Fingerspelling",
+    description:
+      "A live, in-browser sign language reader. MediaPipe tracks 21 hand landmarks from the webcam; poses are normalized for position, scale and handedness and classified with a k-NN model you train on your own hands, then debounced into text that can be read aloud. No video ever leaves the device.",
+    tags: ["JavaScript", "MediaPipe", "Computer Vision", "k-NN"],
+    href: "/sign",
+  },
+  {
     title: "Security Monitoring System",
     description:
       "A modular C++ home security system with motion detection, live camera feeds, microphone input, and alarm management. Integrated Raspberry Pi camera and audio via OpenCV pipelines for real-time event detection, with multithreaded event processing for concurrent sensors — validated on Linux with CMake and GTest.",
