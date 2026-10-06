@@ -36,6 +36,13 @@ export const about = {
 
 export const projects = [
   {
+    title: "Hand Sign Translator",
+    description:
+      "A desktop app that reads ASL fingerspelling from a webcam and types it out. MediaPipe tracks 21 hand landmarks per frame; poses are normalized for position, scale and handedness, classified with a k-NN model trained on the user's own hands, and debounced into text that can be read aloud. Packaged as a double-click app for Windows, macOS and Linux with CI builds.",
+    tags: ["Python", "OpenCV", "MediaPipe", "PyInstaller"],
+    href: "https://github.com/The-Sole-King/hand-sign-translator",
+  },
+  {
     title: "Security Monitoring System",
     description:
       "A modular C++ home security system with motion detection, live camera feeds, microphone input, and alarm management. Integrated Raspberry Pi camera and audio via OpenCV pipelines for real-time event detection, with multithreaded event processing for concurrent sensors — validated on Linux with CMake and GTest.",

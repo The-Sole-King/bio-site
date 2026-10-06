@@ -31,7 +31,3 @@ Outputs a fully static site to `out/`, deployable to any static host (GitHub Pag
 ## Editing content
 
 All content lives in [`app/data.js`](app/data.js) — edit that one file to update the hero, about, projects, and links. Theme colors are defined as tokens in [`app/globals.css`](app/globals.css).
-
-## Sign Reader
-
-[`sign-reader/`](sign-reader/) is a separate desktop program (Python, OpenCV + MediaPipe) that reads ASL fingerspelling from the webcam. See its [README](sign-reader/README.md).
